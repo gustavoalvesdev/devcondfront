@@ -1,10 +1,5 @@
 import React from 'react'
-import {
-  TheContent,
-  TheSidebar,
-  TheFooter,
-  TheHeader
-} from './index'
+import { TheContent, TheSidebar, TheFooter } from './index'
 
 const TheLayout = () => {
 
