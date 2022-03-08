@@ -1,0 +1,531 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"CModla",
+				"CModalHeader"
+			],
+			[
+				"els",
+				"elseif"
+			],
+			[
+				"spl_autoload",
+				"spl_autoload_register()"
+			],
+			[
+				"call_user_f",
+				"call_user_func_array()"
+			],
+			[
+				"curren",
+				"currentAction"
+			],
+			[
+				"met",
+				"method_exists()"
+			],
+			[
+				"cr",
+				"currentController"
+			],
+			[
+				"db",
+				"dbname"
+			],
+			[
+				"rg",
+				"rgba()"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "src/views/Wall.js",
+			"settings":
+			{
+				"buffer_size": 1983,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			},
+			"undo_stack":
+			[
+				[
+					3,
+					1,
+					"insert",
+					{
+						"characters": "\n<>"
+					},
+					"BgAAAFoDAAAAAAAAWwMAAAAAAAAAAAAAWwMAAAAAAABdAwAAAAAAAAAAAABbAwAAAAAAAFsDAAAAAAAAAgAAACAgWwMAAAAAAABfAwAAAAAAAAAAAABfAwAAAAAAAGADAAAAAAAAAAAAAGADAAAAAAAAYQMAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAWgMAAAAAAABaAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					8,
+					1,
+					"insert",
+					{
+						"characters": "\n</>"
+					},
+					"BQAAACIHAAAAAAAAIwcAAAAAAAAAAAAAIwcAAAAAAAAnBwAAAAAAAAAAAAAnBwAAAAAAACgHAAAAAAAAAAAAACgHAAAAAAAAKQcAAAAAAAAAAAAAKQcAAAAAAAAqBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgcAAAAAAAAiBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					11,
+					1,
+					"insert",
+					{
+						"characters": "\n\n\n"
+					},
+					"CAAAACIHAAAAAAAAIwcAAAAAAAAAAAAAIwcAAAAAAAAnBwAAAAAAAAAAAAAnBwAAAAAAACgHAAAAAAAAAAAAACgHAAAAAAAALAcAAAAAAAAAAAAAIwcAAAAAAAAjBwAAAAAAAAQAAAAgICAgKAcAAAAAAAApBwAAAAAAAAAAAAApBwAAAAAAAC0HAAAAAAAAAAAAACQHAAAAAAAAJAcAAAAAAAAEAAAAICAgIA",
+					"AQAAAAAAAAABAAAAIgcAAAAAAAAiBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					14,
+					1,
+					"indent",
+					null,
+					"IwAAAGIDAAAAAAAAZAMAAAAAAAAAAAAAbwMAAAAAAABxAwAAAAAAAAAAAAB+AwAAAAAAAIADAAAAAAAAAAAAAKIDAAAAAAAApAMAAAAAAAAAAAAAtAMAAAAAAAC2AwAAAAAAAAAAAADOAwAAAAAAANADAAAAAAAAAAAAAPYDAAAAAAAA+AMAAAAAAAAAAAAALAQAAAAAAAAuBAAAAAAAAAAAAABFBAAAAAAAAEcEAAAAAAAAAAAAAGAEAAAAAAAAYgQAAAAAAAAAAAAAeAQAAAAAAAB6BAAAAAAAAAAAAACSBAAAAAAAAJQEAAAAAAAAAAAAAK8EAAAAAAAAsQQAAAAAAAAAAAAAzwQAAAAAAADRBAAAAAAAAAAAAADxBAAAAAAAAPMEAAAAAAAAAAAAABUFAAAAAAAAFwUAAAAAAAAAAAAAKwUAAAAAAAAtBQAAAAAAAAAAAABDBQAAAAAAAEUFAAAAAAAAAAAAAFwFAAAAAAAAXgUAAAAAAAAAAAAAdwUAAAAAAAB5BQAAAAAAAAAAAACYBQAAAAAAAJoFAAAAAAAAAAAAALcFAAAAAAAAuQUAAAAAAAAAAAAA5wUAAAAAAADpBQAAAAAAAAAAAAAABgAAAAAAAAIGAAAAAAAAAAAAACUGAAAAAAAAJwYAAAAAAAAAAAAAZAYAAAAAAABmBgAAAAAAAAAAAACmBgAAAAAAAKgGAAAAAAAAAAAAAMwGAAAAAAAAzgYAAAAAAAAAAAAA5wYAAAAAAADpBgAAAAAAAAAAAAD7BgAAAAAAAP0GAAAAAAAAAAAAAA4HAAAAAAAAEAcAAAAAAAAAAAAAHwcAAAAAAAAhBwAAAAAAAAAAAAA4BwAAAAAAADoHAAAAAAAAAAAAAEsHAAAAAAAATQcAAAAAAAAAAAAAWwcAAAAAAABdBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAIgcAAAAAAABmAwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					25,
+					1,
+					"reindent",
+					null,
+					"AQAAAGoHAAAAAAAAcAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAagcAAAAAAABqBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					30,
+					1,
+					"insert",
+					{
+						"characters": "\t"
+					},
+					"AgAAAHUHAAAAAAAAdwcAAAAAAAAAAAAAagcAAAAAAABqBwAAAAAAAAYAAAAgICAgICA",
+					"AQAAAAAAAAABAAAAdQcAAAAAAAB1BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					31,
+					1,
+					"insert",
+					{
+						"characters": "<C<o"
+					},
+					"BAAAAHEHAAAAAAAAcgcAAAAAAAAAAAAAcgcAAAAAAABzBwAAAAAAAAAAAABzBwAAAAAAAHQHAAAAAAAAAAAAAHQHAAAAAAAAdQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcQcAAAAAAABxBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					32,
+					2,
+					"left_delete",
+					null,
+					"AgAAAHQHAAAAAAAAdAcAAAAAAAABAAAAb3MHAAAAAAAAcwcAAAAAAAABAAAAPA",
+					"AQAAAAAAAAABAAAAdQcAAAAAAAB1BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					33,
+					1,
+					"insert",
+					{
+						"characters": "Modal"
+					},
+					"BQAAAHMHAAAAAAAAdAcAAAAAAAAAAAAAdAcAAAAAAAB1BwAAAAAAAAAAAAB1BwAAAAAAAHYHAAAAAAAAAAAAAHYHAAAAAAAAdwcAAAAAAAAAAAAAdwcAAAAAAAB4BwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAcwcAAAAAAABzBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					34,
+					1,
+					"insert_completion",
+					{
+						"completion": "CModalBody",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "CModalBody"
+					},
+					"AgAAAHIHAAAAAAAAcgcAAAAAAAAGAAAAQ01vZGFscgcAAAAAAAB8BwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeAcAAAAAAAB4BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					35,
+					4,
+					"left_delete",
+					null,
+					"BAAAAHsHAAAAAAAAewcAAAAAAAABAAAAeXoHAAAAAAAAegcAAAAAAAABAAAAZHkHAAAAAAAAeQcAAAAAAAABAAAAb3gHAAAAAAAAeAcAAAAAAAABAAAAQg",
+					"AQAAAAAAAAABAAAAfAcAAAAAAAB8BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					36,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAAHgHAAAAAAAAeQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeAcAAAAAAAB4BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					37,
+					1,
+					"insert",
+					{
+						"characters": "\n</C<"
+					},
+					"BgAAAHkHAAAAAAAAegcAAAAAAAAAAAAAegcAAAAAAACABwAAAAAAAAAAAACABwAAAAAAAIEHAAAAAAAAAAAAAIEHAAAAAAAAggcAAAAAAAAAAAAAggcAAAAAAACDBwAAAAAAAAAAAACDBwAAAAAAAIQHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeQcAAAAAAAB5BwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					38,
+					1,
+					"insert",
+					{
+						"characters": "o"
+					},
+					"AQAAAIQHAAAAAAAAhQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhAcAAAAAAACEBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					39,
+					2,
+					"left_delete",
+					null,
+					"AgAAAIQHAAAAAAAAhAcAAAAAAAABAAAAb4MHAAAAAAAAgwcAAAAAAAABAAAAPA",
+					"AQAAAAAAAAABAAAAhQcAAAAAAACFBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					40,
+					1,
+					"insert",
+					{
+						"characters": "Modal>"
+					},
+					"BgAAAIMHAAAAAAAAhAcAAAAAAAAAAAAAhAcAAAAAAACFBwAAAAAAAAAAAACFBwAAAAAAAIYHAAAAAAAAAAAAAIYHAAAAAAAAhwcAAAAAAAAAAAAAhwcAAAAAAACIBwAAAAAAAAAAAACIBwAAAAAAAIkHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAgwcAAAAAAACDBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					42,
+					1,
+					"insert",
+					{
+						"characters": "\n\t<C"
+					},
+					"BQAAAHkHAAAAAAAAegcAAAAAAAAAAAAAegcAAAAAAACABwAAAAAAAAAAAACABwAAAAAAAIIHAAAAAAAAAAAAAIIHAAAAAAAAgwcAAAAAAAAAAAAAgwcAAAAAAACEBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAeQcAAAAAAAB5BwAAAAAAAAAAAAAAgGFA"
+				],
+				[
+					43,
+					1,
+					"insert",
+					{
+						"characters": "m"
+					},
+					"AQAAAIQHAAAAAAAAhQcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhAcAAAAAAACEBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					44,
+					1,
+					"insert_completion",
+					{
+						"completion": "CModal",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "CModal"
+					},
+					"AgAAAIMHAAAAAAAAgwcAAAAAAAACAAAAQ22DBwAAAAAAAIkHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAhQcAAAAAAACFBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					45,
+					1,
+					"insert",
+					{
+						"characters": "Header><"
+					},
+					"CAAAAIkHAAAAAAAAigcAAAAAAAAAAAAAigcAAAAAAACLBwAAAAAAAAAAAACLBwAAAAAAAIwHAAAAAAAAAAAAAIwHAAAAAAAAjQcAAAAAAAAAAAAAjQcAAAAAAACOBwAAAAAAAAAAAACOBwAAAAAAAI8HAAAAAAAAAAAAAI8HAAAAAAAAkAcAAAAAAAAAAAAAkAcAAAAAAACRBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAiQcAAAAAAACJBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					46,
+					1,
+					"insert",
+					{
+						"characters": "/CModl"
+					},
+					"BgAAAJEHAAAAAAAAkgcAAAAAAAAAAAAAkgcAAAAAAACTBwAAAAAAAAAAAACTBwAAAAAAAJQHAAAAAAAAAAAAAJQHAAAAAAAAlQcAAAAAAAAAAAAAlQcAAAAAAACWBwAAAAAAAAAAAACWBwAAAAAAAJcHAAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAkQcAAAAAAACRBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					47,
+					1,
+					"insert",
+					{
+						"characters": "a"
+					},
+					"AQAAAJcHAAAAAAAAmAcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAlwcAAAAAAACXBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					51,
+					1,
+					"insert_completion",
+					{
+						"completion": "CModalHeader",
+						"format": "text",
+						"keep_prefix": false,
+						"must_insert": false,
+						"trigger": "CModalHeader"
+					},
+					"AgAAAJIHAAAAAAAAkgcAAAAAAAAGAAAAQ01vZGxhkgcAAAAAAACeBwAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAmAcAAAAAAACYBwAAAAAAAAAAAAAAAPC/"
+				],
+				[
+					52,
+					1,
+					"insert",
+					{
+						"characters": ">"
+					},
+					"AQAAAJ4HAAAAAAAAnwcAAAAAAAAAAAAA",
+					"AQAAAAAAAAABAAAAngcAAAAAAACeBwAAAAAAAAAAAAAAAPC/"
+				]
+			]
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"install pac",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/gusta/Documents/bonieky/devcond/devcondfront",
+		"/C/Users/gusta/Documents/bonieky/devcond/devcondfront/src",
+		"/C/Users/gusta/Documents/bonieky/devcond/devcondfront/src/views"
+	],
+	"file_history":
+	[
+		"/C/xampp/htdocs/nova_loja/config.php",
+		"/C/xampp/htdocs/nova_loja/controllers/langController.php",
+		"/C/xampp/htdocs/nova_loja/lang/en.ini",
+		"/C/xampp/htdocs/nova_loja/views/template.php",
+		"/C/xampp/htdocs/nova_loja/views/home.php",
+		"/C/xampp/htdocs/nova_loja/lang/pt-br.ini",
+		"/C/xampp/htdocs/nova_loja/controllers/homeController.php",
+		"/C/xampp/htdocs/nova_loja/core/Language.php",
+		"/C/xampp/htdocs/nova_loja/core/Controller.php",
+		"/C/xampp/htdocs/nova_loja/nova_loja.sublime-project",
+		"/C/xampp/htdocs/nova_loja/core/Model.php",
+		"/C/xampp/htdocs/nova_loja/controllers/notFoundController.php",
+		"/C/xampp/htdocs/nova_loja/views/404.php",
+		"/C/xampp/htdocs/nova_loja/index.php",
+		"/C/xampp/htdocs/nova_loja/core/Core.php",
+		"/C/xampp/htdocs/nova_loja/.htaccess",
+		"/C/xampp/htdocs/nova_loja/environment.php",
+		"/C/xampp/htdocs/gs7digital/config.php",
+		"/C/xampp/htdocs/gs7digital/pages/home.php",
+		"/C/xampp/htdocs/gs7digital/modal-exemplo/iindex.html",
+		"/C/xampp/htdocs/gs7digital/index.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"scrollbar_highlights": true,
+		"show_context": true,
+		"use_buffer2": true,
+		"use_gitignore": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "src/views/Wall.js",
+					"selected": true,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1983,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1847,
+								1847
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1180.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"stack_multiselect": false,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 44.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "devcondfront.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 273.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
