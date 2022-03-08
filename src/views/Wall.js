@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { CButton, CCard, CCardBody, CCardHeader, CCol, CRow } from '@coreui/react';
+import { CButton, CButtonGroup, CCard, CCardBody, CCardHeader, CCol, CDataTable, CRow } from '@coreui/react';
 import CIcon from '@coreui/icons-react';
 
 import useApi from '../services/api';
@@ -9,6 +9,12 @@ export default () => {
 
   const [loading, setLoading] = useState(true);
   const [list, setList] = useState([]);
+
+  const fields= [
+    {label: 'Título', key: 'title'},
+    {label: 'Data de criação', key: 'datecreated', _style:{width:'200px'}},
+    {label: 'Ações', key: 'actions', _style:{width:'1px'}}
+  ];
 
   useEffect(() => {
     getList();
@@ -37,7 +43,28 @@ export default () => {
             </CButton>
           </CCardHeader>
           <CCardBody>
+            <CDataTable
+              items={list}
+              fields={fields}
+              loading={loading}
+              noItemsViewSlot=" "
+              hover
+              striped
+              bordered
+              pagination
+              itemsPerPage={5}
+              scopedSlots={{
+                'actions': (item, index) => (
+                  <td>
+                    <CButtonGroup>
+                      <CButton color="info">Editar</CButton>
+                      <CButton color='danger'>Excluir</CButton>
+                    </CButtonGroup>
+                  </td>
 
+                )
+              }}
+            />
           </CCardBody>
         </CCard>
       </CCol>
