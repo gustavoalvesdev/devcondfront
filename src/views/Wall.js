@@ -64,14 +64,41 @@ export default () => {
     setShowModal(true);
   }
 
+  const handleRemoveButton = async (index) => {
+    if (window.confirm('Tem certeza que deseja excluir?')) {
+      const result = await api.removeWall(list[index]['id']);
+      if(result.error === '') {
+        getList();
+      } else {
+        alert(result.error);
+      }
+    }
+  }
+
+  const handleNewButton = () => {
+    setModalId('');
+    setModalTitleField('');
+    setModalBodyField('');
+    setShowModal(true);
+  }
+
   const handleModalSave = async () => {
 
     if (modalTitleField && modalBodyField) {
         setModalLoading(true);
-        const result = await api.updateWall(modalId, {
-            title: modalTitleField,
-            body: modalBodyField
-        });
+        let result;
+
+        let data = {
+          title: modalTitleField,
+          body: modalBodyField
+        };
+
+        if (modalId === '') {
+          result = await api.addWall(data);
+        } else {
+          result = await api.updateWall(modalId, data);
+        }
+
         setModalLoading(false);
         if(result.error === '') {
             setShowModal(false);
@@ -93,7 +120,7 @@ export default () => {
 
           <CCard>
             <CCardHeader>
-              <CButton color="primary">
+              <CButton color="primary" onClick={handleNewButton}>
                 <CIcon name="cil-check" /> Novo Aviso
               </CButton>
             </CCardHeader>
@@ -113,7 +140,7 @@ export default () => {
                     <td>
                       <CButtonGroup>
                         <CButton color="info" onClick={() => handleEditButton(index)}>Editar</CButton>
-                        <CButton color='danger'>Excluir</CButton>
+                        <CButton color='danger' onClick={() => handleRemoveButton(index)}>Excluir</CButton>
                       </CButtonGroup>
                     </td>
 
@@ -127,7 +154,7 @@ export default () => {
 
 
       <CModal show={showModal} onClose={handleCloseModal}>
-        <CModalHeader closeButton>Editar Aviso</CModalHeader>
+        <CModalHeader closeButton>{modalId === '' ? 'Novo' : 'Editar'} Aviso</CModalHeader>
         <CModalBody>
             <CFormGroup>
                 <CLabel htmlFor="modal-title">Título do Aviso</CLabel>

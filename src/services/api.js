@@ -63,6 +63,16 @@ export default () => {
         let token = localStorage.getItem('token');
         let json = await request('put', `/wall/${id}`, data, token);
         return json;
+      },
+      addWall: async  (data) => {
+        let token = localStorage.getItem('token');
+        let json = await request('post', '/walls', data, token);
+        return json;
+      },
+      removeWall: async (id) => {
+        let token = localStorage.getItem('token');
+        let json = await request('delete', `/wall/${id}`, { }, token);
+        return json;
       }
     };
 }
