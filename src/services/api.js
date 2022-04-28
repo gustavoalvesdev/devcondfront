@@ -73,6 +73,11 @@ export default () => {
         let token = localStorage.getItem('token');
         let json = await request('delete', `/wall/${id}`, { }, token);
         return json;
-      }
+      },
+      getDocuments: async () => {
+        let token = localStorage.getItem('token');
+        let json = await request('get', '/documents', {}, token);
+        return json;
+      },
     };
 }
